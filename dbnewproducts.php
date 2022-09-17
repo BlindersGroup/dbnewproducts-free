@@ -136,9 +136,9 @@ class Dbnewproducts extends Module
                     array(
                         'col' => 3,
                         'type' => 'text',
-                        'desc' => $this->l('Número de productos nuevos en categorías marcas'),
+                        'desc' => $this->l('Number of new products in categories and brands'),
                         'name' => 'DBNEWPRODUCTS_CATEGORY',
-                        'label' => $this->l('Productos'),
+                        'label' => $this->l('Products'),
                     ),
                 ),
                 'submit' => array(

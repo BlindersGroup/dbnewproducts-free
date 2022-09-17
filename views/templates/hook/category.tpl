@@ -25,7 +25,7 @@
 
 <div class="dbnewproducts mt-3">
     <div class="new_text">
-        <p class="h3 title">{l s ="Novedades en %name_category%" sprintf=['%name_category%' => $name_category] d="Shop.Theme.Catalog"}</p>
+        <p class="h3 title">{l s ="Novedades en %name_category%" sprintf=['%name_category%' => $name_category] mod="dbnewproducts"}</p>
     </div>
 
     <div id="splide_newproducts_category" class="splide">
